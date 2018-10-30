@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Sites News - Especializada em Soluções Digitais</title>
-		<meta name="description" content="Agência especializada em Marketing Digital, Criação de Sites, Criação de Aplicativos Mobile">
-		<meta name="keywords" content="Agência, Marketing, Sites, Aplicativos">
-		<meta name="robots" content="index, fallow">
-		<meta name="author" content="Juciandro Souza">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lato+Web:300,400,700" rel="stylesheet">
-		<link rel="icon" href="assets/imagens/icon.png">		 
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sites News - Especializada em Soluções Digitais</title>
+	<meta name="description" content="Agência especializada em Marketing Digital, Criação de Sites, Criação de Aplicativos Mobile">
+	<meta name="keywords" content="Agência, Marketing, Sites, Aplicativos">
+	<meta name="robots" content="index, fallow">
+	<meta name="author" content="Juciandro Souza">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Titillium+Web:300,400,700" rel="stylesheet">
+	<link rel="icon" href="assets/imagens/icon.png">		 
+</head>
 
-	<body>
-		<!-- cabeçalho -->
-		<header class="cabecalho">
-			<a href="index.html"><h1 class="logo">Sites News - Especializada em Soluções Digitais</h1></a>
-		</header>
-		<!-- // -->
-	</body>
+<body>
+	<!-- cabeçalho -->
+	<header class="cabecalho">
+		<a href="index.html"><h1 class="logo">Sites News - Especializada em Soluções Digitais</h1></a>
+		<button class="btn-menu" onclick="openMenu()"><i class="fas fa-bars fa-lg"></i></button>
+		<nav class="menu" id="teste">
+			<a href="#" class="close-menu" onclick="closeMenu()">x</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Clientes</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Quem Somos</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- // -->
+	<script type="text/javascript">
+		function openMenu() {
+			var menu = document.getElementById('teste');
+			if(menu.style.display == "none" || menu.style.display == ""){
+				menu.style.display = "block";
+			}
+		}
+		function closeMenu() {
+			var close = document.getElementById('teste');
+			var test = close.style.display = "none";
+		}
+	</script>
+</body>
 </html>

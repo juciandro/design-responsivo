@@ -11,3 +11,47 @@
 	background: url(../imagens/logo-mobile.png) center center/56px no-repeat;
 	font-size: 0; 
 }
+/*menu botão*/
+.btn-menu{
+	float: right;
+	width: 56px;
+	height: 56px;
+	border-radius: 56px;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+	text-align: center;
+	color: #fff;
+	cursor: pointer;	
+}
+/*menu*/
+.menu{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+	display: none;
+}
+.close-menu{
+	font-size: 3em;
+	float: right;
+	margin-right: 5%;
+	color: #fff;
+	cursor: pointer;
+}
+.menu ul{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.menu li{
+	padding: 1.5%;
+}
+.menu li a{
+	font-size: 2em;
+	color: #fff;
+	padding: 1.5% 3%;
+}
+.menu li a:hover{
+	border: 1px solid #da6709;
+}
