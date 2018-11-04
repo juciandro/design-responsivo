@@ -1,3 +1,10 @@
-@media screen and (){
-
+/*small device - smartphone*/
+@media screen and (min-width: 480px){
+	.logo{
+		width: 214px;
+		background: url(../imagens/logo.png) center center/214px no-repeat;
+	}
+	.btn{
+		font-size: 2em;
+	}
 }
