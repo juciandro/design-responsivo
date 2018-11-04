@@ -10,6 +10,7 @@
 	<meta name="author" content="Juciandro Souza">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Oswald:300,400,700" rel="stylesheet">
 	<link rel="icon" href="assets/imagens/icon.png">		 
@@ -17,9 +18,9 @@
 
 <body>
 	<!-- cabeçalho -->
-	<header class="cabecalho">
+	<header class="container cabecalho">
 		<a href="index.html"><h1 class="logo">Sites News - Especializada em Soluções Digitais</h1></a>
-		<button class="btn-menu" onclick="openMenu()"><i class="fas fa-bars fa-lg"></i></button>
+		<button class="btn-menu bg-gradient" onclick="openMenu()"><i class="fas fa-bars fa-lg"></i></button>
 		<nav class="menu" id="menu">
 			<a href="#" class="close-menu" onclick="closeMenu()"><i class="fa fa-times"></i></a>
 			<ul>
@@ -34,20 +35,20 @@
 	</header>
 	<!-- // -->
 	<!-- banner -->
-	<section class="banner">
+	<section class="container banner">
 		<div class="title">
 			<h2>Ouse inovar!</h2>
 			<h3>Criamos experiências e estabelecemos ações estrategicas que conectam marcas e consumidores</h3>
 		</div>
 		<div class="buttons">
-			<button class="btn-cadastrar">Cadastrar<i class="fas fa-arrow-alt-circle-right"></i></button>
-			<button class="btn-sobre">Sobre <i class="fas fa-question-circle"></i></button>
+			<button class="btn btn-cadastrar bg-white radius">Cadastrar<i class="fas fa-arrow-alt-circle-right"></i></button>
+			<button class="btn btn-sobre bg-black radius">Sobre <i class="fas fa-question-circle"></i></button>
 		</div>
 	</section>
 	<!-- // -->
 	<!-- serviços -->
-	<main class="servicos">
-		<article class="servico">
+	<main class="servicos container">
+		<article class="servico bg-white radius">
 			<a href=""><img src="assets/imagens/criacoes.jpg" alt="Campanhas Publicitarias"></a>
 			<div class="inner">
 				<a href="#">Campanhas Publicitarias</a>
@@ -55,7 +56,7 @@
 				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
 			</div>
 		</article>
-		<article class="servico">
+		<article class="servico radius">
 			<a href=""><img src="assets/imagens/md.jpg" alt="Marketing Digital"></a>
 			<div class="inner">
 				<a href="#">Marketing Digital</a>
@@ -63,7 +64,7 @@
 				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
 			</div>
 		</article>
-		<article class="servico">
+		<article class="servico radius">
 			<a href=""><img src="assets/imagens/cs.jpg" alt="Criações de Sites"></a>
 			<div class="inner">
 				<a href="#">Criações de Sites</a>
@@ -74,17 +75,17 @@
 	</main>
 	<!-- // -->
 	<!-- newsletter -->
-	<section class="newsletter">
+	<section class="container newsletter bg-black">
 		<h2>Inscreva-se agora!</h2>
 		<h3>Receba nividades, dicas, e muito mais</h3>
 		<form>
-			<input type="email" name="email" placeholder="Seu e-mail" required>
-			<button>Cadastrar</button>
+			<input type="email" name="email" class="bg-black radius" placeholder="Seu e-mail" required>
+			<button class="bg-white radius">Cadastrar</button>
 		</form>
 	</section>
 	<!-- // -->
 	<!-- Rodapé -->
-	<footer class="rodape">
+	<footer class="container rodape bg-gradient">
 		<div class="social">
 			<a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
 			<a href="#"><i class="fab fa-twitter fa-2x"></i></a>

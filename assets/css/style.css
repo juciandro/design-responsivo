@@ -1,9 +1,24 @@
-/*cabeçalho*/
-.cabecalho{
-	display: block;
+.container{
 	width: 100%;
 	float: left;
 	padding: 3% 4%;
+	text-align: center;
+}
+.bg-gradient{
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+.bg-black{
+	background-color: #130400;
+}
+.bg-white{
+	background-color: #fff;
+}
+.radius{
+	border-radius: 7px;
+}
+/*cabeçalho*/
+.cabecalho{
+	/*display: block;*/
 }
 .logo{
 	width: 56px;
@@ -18,7 +33,6 @@
 	width: 56px;
 	height: 56px;
 	border-radius: 56px;
-	background: linear-gradient(to right, #ce2e3c, #da6709);
 	text-align: center;
 	color: #fff;
 	cursor: pointer;	
@@ -59,12 +73,8 @@
 }
 /*banner*/
 .banner{
-	display: block;
-	width: 100%;
-	float: left;
-	padding: 3% 4%;
+	/*display: block;*/
 	background: url(../imagens/bg.jpg) no-repeat fixed;
-	text-align: center;
 }
 .title{
 	width: 100%;
@@ -84,47 +94,36 @@
 .buttons{
 	width: 100%;
 }
-.btn-cadastrar{
+.btn{
 	width: 100%;
-	background-color: #fff;
-	margin-top: 5%;
 	float: left;
-	border-radius: 10px;
+	border-radius: 7px;
 	padding: 5%;
 	text-align: left;
 	cursor: pointer;
-	color: #130400;
 	font-size: 1.2em;
 }
+.btn-cadastrar{
+	margin-top: 5%;	
+	color: #130400;
+}
 .btn-sobre{
-	width: 100%;
-	background-color: #130400;
 	color: #fff;
 	margin-top: 2%;
-	float: left;
-	border-radius: 10px;
-	padding: 5%;
-	text-align: left;
-	cursor: pointer;
-	font-size: 1.2em;
 }
 .buttons i{
 	float: right;
 }
 /*serviçoes*/
 .servicos{
-	width: 100%;
-	padding: 3% 4%;
-	float: left;
 }
 .servico{
 	width: 100%;
-	background-color: #fff;
 	margin-bottom: 3%;
 	text-align: left;
-	border-radius: 7px;
 }
-.servico a img{
+.servico img{
+	display: block;
 	border-radius: 7px 7px 0 0;
 }
 .inner{
@@ -148,13 +147,7 @@
 
 /*newsletter*/
 .newsletter{
-	width: 100%;
-	float: left;
-	background-color: #130400;
-	text-align: center;
 	color: #fff;
-	padding: 3% 4%;
-	/*clear: both;*/
 }
 .newsletter h2{
 	font-size: 1.5em;
@@ -166,8 +159,6 @@ form{
 .newsletter input{
 	width: 100%;
 	padding: 5%;
-	border-radius: 7px;
-	background-color: #130400;
 	color: #fff;
 	border: 1px solid rgba(255,255,255, 0.3);
 }
@@ -176,18 +167,11 @@ form{
 	margin-top: 2%;
 	padding: 5%;
 	cursor: pointer;
-	border-radius: 7px;
-	background-color: #fff;
 	color: #130400;
 }
 /*rodapé*/
 .rodape{
-	width: 100%;
-	float: left;
-	padding: 3% 4%;
 	color: rgba(255,255,255,0.7);
-	background: linear-gradient(to right, #ce2e3c, #da6709);
-	text-align: center;
 }
 .social a{
 	margin-right: 3%;
