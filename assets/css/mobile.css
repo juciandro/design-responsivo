@@ -8,3 +8,111 @@
 		font-size: 2em;
 	}
 }
+/*small device - tablets*/
+@media screen and (min-width: 768px){
+	.servico{
+		width: 49%;
+		float: left;
+		margin-right: 2%;
+	}
+	.servico:nth-child(2){
+		margin-right: 0;
+	}
+	.servico:nth-child(4){
+		margin-right: 0;
+	}
+	.newsletter h2{
+		font-size: 1.8em;
+	}
+	.newsletter h3{
+		font-size: 1.3em;
+	}
+	.newsletter input{
+		width: 70%;
+		padding: 2%;
+		float: left;
+		margin-right: 1%;
+	}
+	.newsletter button{
+		width: 29%;
+		padding: 2%;
+		float: right;
+		margin-top: 0;
+	}
+}
+/*small device - tablets e desktop*/
+@media screen and (min-width: 960px){
+	.btn-menu{
+		display: none;
+	}
+	.close-menu{
+		display: none;
+	}
+	.menu{
+		width: auto;
+		height: 56px;
+		line-height: 56px;
+		float: right;
+		display: block !important;
+		position: static;
+		background-color: #f5f5f5;
+	}
+	.menu li{
+		padding: 0;
+		float: left;
+	}
+	.menu li a{
+		font-size: 1.1em;
+		padding: 15px;
+		color: #130400;
+	}
+	.menu li a:hover{
+		color: #da6709;
+		border: none;
+		border-bottom: 1px solid #da6709;
+	}
+	.title{
+		width: 70%;
+		float: left;
+		text-align: left;
+	}
+	.title h2{
+		font-size: 3em;
+
+	}
+	.title h3{
+		font-size: 2em;
+		line-height: 30px;
+	}
+	.buttons{
+		width: 30%;
+		float: right;
+		margin-top: 0;
+	}
+	.btn{
+		font-size: 1.7em;
+	}
+	.servico{
+		width: 32%;
+	}
+	.servico:nth-child(2){
+		margin-right: 2%;
+	}
+	.servico:nth-child(3){
+		margin-right: 0;
+	}
+	.newsletter input{
+		width: 60%;
+		float: none;
+	}
+	.newsletter button{
+		width: 20%;
+		float: none;
+	}
+	.newsletter h2{
+		font-size: 1.8em;
+	}
+	.newsletter h3{
+		font-size: 1.3em;
+	}
+}
